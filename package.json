@@ -1,0 +1,35 @@
+{
+  "name": "scrape-the-news-master",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.8.0"
+  },
+  "description": "Scraping site app.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "4.16.3",
+    "express-handlebars": "^3.0.0",
+    "grunt-cli": "^1.2.0",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.9.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Clickomat",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clickomat/scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clickomat/scraper/issues"
+  },
+  "homepage": "https://github.com/clickomat/scraper#readme"
+}
