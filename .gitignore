@@ -2,3 +2,4 @@ node_modules/
 .dsStore
 node_modules
 npm-debug.log
+node_modules
